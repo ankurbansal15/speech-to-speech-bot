@@ -1,0 +1,11 @@
+flask
+scikit-learn
+numpy
+requests
+gunicorn
+Werkzeug
+Jinja2
+MarkupSafe
+itsdangerous
+click
+python-dotenv
