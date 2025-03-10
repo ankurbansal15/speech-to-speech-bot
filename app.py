@@ -4,6 +4,7 @@ import requests
 import json
 import os
 from dotenv import load_dotenv
+from os import environ
 
 app = Flask(__name__)
 load_dotenv()
@@ -125,4 +126,4 @@ def process_speech():
         })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(environ.get("PORT", 5000)))
