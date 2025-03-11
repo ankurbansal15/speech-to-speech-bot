@@ -49,8 +49,6 @@ ans_map = {
     30: ' Caustic'
 }
 
-GEMINI_API_KEY = "AIzaSyC1uxrUhME_AiJg1CG0d4P6OCPNrjkzN2o"
-
 def get_tone(text):
     text = [text]
     text_vectorized = vectorizer.transform(text)
